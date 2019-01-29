@@ -4,7 +4,7 @@ module.exports = {
     description: '',
     main: 'src/index.js',
     repository: '',
-    author: 'fowiflowi',
+    author: 'fowi',
     license: 'MIT',
     scripts: {
       start: 'node src',
