@@ -1,0 +1,38 @@
+{
+  "name": "@fowiflowi/fowlerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src",
+    "dev": "nodemon src",
+    "test": "eslint ."
+  },
+  "pre-commit": [
+    "test"
+  ],
+  "bin": {
+    "fowlerplate": "bin/fowlerplate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FowiFlowi/fowlerplate.git"
+  },
+  "author": "fowiflowi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FowiFlowi/fowlerplate/issues"
+  },
+  "homepage": "https://github.com/FowiFlowi/fowlerplate#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "shelljs": "^0.8.3",
+    "yargs": "^12.0.5"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "pre-commit": "^1.2.2"
+  }
+}
